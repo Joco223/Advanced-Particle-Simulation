@@ -3,7 +3,6 @@
 #include <vector>
 #include <stdlib.h>
 #include <thread> 
-#include "Spring.h"
 
 #include "Vector2D.h"
 #include "Particle.h"
@@ -125,19 +124,6 @@ int main(int argc, char* argv[]) {
 		}
 	}
 
-	//Spring temp = Spring(0, 0, 0, 0, 0, 0);
-	//Spring temp2 = Spring(0, 0, 0, 0, 0, 0);
-
-	//std::vector<Spring> springs;
-	//std::vector<Spring> springs2;
-
-	//temp.spawnSprings(p1s, springs, 2, 0.85, 1, 250, 235, 1, 0.8, 0.6, 2, 2);
-
-	//temp2.spawnSprings(p2s, springs2, 200, 0.85, 1, 200, 300, 1, 0.8, 0.6, 2, 15);
-
-	/*std::vector<Particle> BHs = { Particle(Vector2D(430, 240), Vector2D(0, 0), Vector2D(0, 0), 1, true, 2400),
-								  Particle(Vector2D(130, 240), Vector2D(0, 0), Vector2D(0, 0), 1, true, 2400)};*/
-
 	bool k = false;
 	bool j = false;
 	bool space = false;
@@ -234,9 +220,6 @@ int main(int argc, char* argv[]) {
 
 		//drawParticle(BHs[0].position.x, BHs[0].position.y, BHs[0]);
 		//drawParticle(BHs[1].position.x, BHs[1].position.y, BHs[1]);
-
-		//temp.drawSprings(p1s, springs, pixels);
-		//temp2.drawSprings(p2s, springs2, pixels);
 
 		/*long now = SDL_GetTicks();
 

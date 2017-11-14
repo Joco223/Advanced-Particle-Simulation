@@ -24,18 +24,12 @@
     <ClCompile Include="Particle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Spring.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vector2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Particle.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Spring.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

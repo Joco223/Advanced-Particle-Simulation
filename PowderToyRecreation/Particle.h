@@ -34,8 +34,4 @@ public:
 	void molecularBond(std::vector<Particle>& others, int id, float bondStr);
 
 	void testCollision(double& deltaTime, float& timeScale, std::vector<Particle>& others, int id);
-
-	void calcSpring(std::vector<Particle>& others, float distance, float springC, float dampC, int id, unsigned int* pixels);
-
-	void transferHeat(std::vector<Particle>& others, double& deltaTime, float& timeScale);
 };
